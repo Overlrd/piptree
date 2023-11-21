@@ -1,9 +1,19 @@
 # piptree
 tree-like package view for python
 
-```bash
+```console
 $ git clone https://github.com/Overlrd/piptree.git .
-$ python3 src/main.py
-```
+$ chmod +x piptree
+$ ./piptree.py
 
-![piptree](https://github.com/Overlrd/piptree/assets/90383672/a35721e0-9782-43a5-a3c8-bbfc13daa3d1)
+ .global-env
+ ├────colored==2.2.3
+ 
+ ├────debugpy==1.8.0
+ 
+ ├────numpy==1.26.1
+ 
+ └────utd==0.1.3
+ 
+      └────colored (>=1.4.3)
+```
